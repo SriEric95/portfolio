@@ -3,10 +3,10 @@ body {
   color: #272829;
 }
 
-.rounded-circle {
+.profile img {
+  border: 8px solid #2c2f3f;
   border-radius: 50% !important;
 }
-
 .h3 {
   color: black;
 }
@@ -201,26 +201,6 @@ body {
   }
 }
 
-element.style {
-}
-.compItems li.inView {
-  opacity: 1;
-  transform: translateY(0);
-}
-.compItems li {
-  display: inline-block;
-  padding: 0 1em;
-  margin: 5px;
-  height: 36px;
-  line-height: 36px;
-  border-radius: 18px;
-  color: #fff;
-  background: #ee4437;
-  opacity: 0;
-  transform: translateY(100px);
-  transition: all 0.6s;
-}
-
 .main-timeline .timeline-content {
   width: 50%;
   padding: 20px 0 20px 50px;
@@ -356,11 +336,23 @@ element.style {
 }
 
 .content-section-heading {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .content-section {
   background-color: #239b56;
+}
+
+.compItems li {
+  display: inline-block;
+  padding: 0 1em;
+  margin: 5px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 18px;
+  color: black;
+  font-weight: bold;
+  background: #d4ac0d;
 }
 
 .studyBox {
