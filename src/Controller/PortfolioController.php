@@ -13,12 +13,12 @@ class PortfolioController extends AbstractController
     /**
      * @Route("/portfolio", name="portfolio")
      */
-    public function index(): Response
-    {
-        return $this->render('portfolio/index.html.twig', [
-            'controller_name' => 'PortfolioController',
-        ]);
-    }
+    // public function index(): Response
+    // {
+    //     return $this->render('portfolio/index.html.twig', [
+    //         'controller_name' => 'PortfolioController',
+    //     ]);
+    // }
 
     /**
      *  @Route("/", name="home")
