@@ -1,0 +1,3 @@
+swiftmailer:
+  transport: "%mailer_transport%"
+  spool: { type: memory }
